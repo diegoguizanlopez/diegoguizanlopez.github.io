@@ -1,22 +1,21 @@
-body {
-    background-image: url("assets/images/background.jpg");
-    background-size: auto;
-    color: hsl(10, 10%, 90%);
-    margin: 0;
-};
+
 
 /*TOP VAR*/
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: black;
   overflow: hidden;
+  position: fixed;
+  top: 0px;
+  z-index : 10000;
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -25,7 +24,7 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: red;
   color: black;
 }
 
@@ -35,6 +34,23 @@ body {
   color: white;
 }
 .topnav a.deactive {
-  background-color: darkslategrey;
+  background-color: #f6e837;
   color: white;
+}
+
+.matcontainer {
+  border-radius: 10px;
+  border: black;
+  padding: 10px;
+  background-color: #f6e837;
+  margin: 25px 5% 0 5%;
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+.matcontainer:hover{
+  opacity: 1;
+}
+
+.main {
+  height: 100vb;
 }

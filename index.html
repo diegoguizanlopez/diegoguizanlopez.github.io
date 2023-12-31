@@ -10,17 +10,53 @@
     <meta name="author" content="Diego Guizán López" />
     <link rel="stylesheet" type="text/css" href="index.css" />
     <link rel="icon" href="/assets/icons/WebPageIcon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <title>Index Página HTML</title>
 </head>
+
+<style>
+    @import 'css/index.css';
+
+    body {
+        background-image: url("/assets/images/CyberBackGround.jpg");
+        margin: 0;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 60px;
+    }
+
+    ;
+</style>
 
 <body>
     <div class="topnav">
         <nav>
             <a class="active" href="index.html">Diego Guizán</a>
-            <a class="deactive" target="_blank" href="https://www.linkedin.com/in/diego-guizán-lópez-a84bb727a/">Linkedin</a>
-            <a class="deactive" target="_blank" href="https://github.com/diegoguizanlopez">GitHub</a>
+            <a class="deactive" target="_blank" href="https://www.linkedin.com/in/diego-guizán-lópez-a84bb727a/"
+                onmouseover="changeColorEvent(this,'#f7ed6d')" onmouseleave="changeColorEvent(this,previusColor)" style="color: #2a282a;"><i
+                    class="bi bi-linkedin"></i></a>
+            <a class="deactive" target="_blank" href="https://github.com/diegoguizanlopez"
+                onmouseover="changeColorEvent(this,'#f7ed6d')" onmouseleave="changeColorEvent(this,previusColor)" style="color: #2a282a;"><i
+                    class="bi bi-github"></i></a>
         </nav>
     </div>
+    
+    <div class="main">
+        <div class="matcontainer">
+            <p>
+                prueba
+            </p>
+        </div>
+    </div>
 </body>
+
+<script>
+    var previusColor=null
+    function changeColorEvent(x, color) {
+        if (previusColor!=x.style.backgroundColor){
+        x.style.backgroundColor = color
+        }
+    }
+</script>
 
 </html>
