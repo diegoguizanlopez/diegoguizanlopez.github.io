@@ -50,7 +50,15 @@
 .matcontainer:hover{
   opacity: 1;
 }
-
-.main {
-  height: 100vb;
+html {
+  /* To make use of full height of page*/
+  min-height: 100%;
+  margin: 0;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  background-image: url("../assets/images/CyberBackGround.jpg");
+  background-size: 100% 100%;
+  padding-top: 60px;
 }
