@@ -1,4 +1,16 @@
+html {
+  /* To make use of full height of page*/
+  min-height: 100%;
+  margin: 0;
+}
 
+body {
+  min-height: 100%;
+  margin: 0;
+  background-image: url("../assets/images/CyberBackGround.jpg");
+  background-size: 100% 100%;
+  padding-top: 60px;
+}
 
 /*TOP VAR*/
 
@@ -8,7 +20,7 @@
   overflow: hidden;
   position: fixed;
   top: 0px;
-  z-index : 10000;
+  z-index: 10000;
   width: 100%;
 }
 
@@ -25,7 +37,7 @@
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: red;
-  color: black;
+  color: red;
 }
 
 /* Add a color to the active/current link */
@@ -33,32 +45,73 @@
   background-color: black;
   color: white;
 }
+
 .topnav a.deactive {
   background-color: #f6e837;
   color: white;
+  transition: opacity 0.1s;
+}
+
+.topnav a.deactive:hover {
+  opacity: 0.8;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .matcontainer {
+  flex: 1;
+  box-sizing: border-box;
   border-radius: 10px;
   border: black;
-  padding: 10px;
   background-color: #f6e837;
   margin: 25px 25px 0 25px;
   opacity: 0.7;
-  transition: opacity 0.5s;
+  transition: opacity 0.25s;
+  padding: 0 0 30px 0;
 }
-.matcontainer:hover{
+@media (max-width: 600px) {
+  .matcontainer {
+    flex: 1 0 80%;
+  }
+}
+
+.matcontainer:hover {
   opacity: 1;
 }
-html {
-  /* To make use of full height of page*/
-  min-height: 100%;
-  margin: 0;
+
+.titlemat {
+  --class-item-bg: #000000;
+  background-color: var(--class-item-bg);
+  border-radius: 10px 10px 0 0;
+  padding: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  word-spacing: 5px;
+  white-space: pre;
 }
-body {
-  min-height: 100%;
-  margin: 0;
-  background-image: url("../assets/images/CyberBackGround.jpg");
-  background-size: 100% 100%;
-  padding-top: 60px;
+
+.titlemat strong{
+  font-size: 20px;
+}
+
+.textmat {
+  padding: 10px 0 10px 15px;
+}
+
+.textmat a {
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.textmat a:hover {
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
