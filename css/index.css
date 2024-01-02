@@ -74,13 +74,7 @@ body {
 }
 .matcontainerINV {
   flex: 1;
-  box-sizing: border-box;
-  border-radius: 10px;
-  border: black;
   margin: 25px 25px 0 25px;
-  opacity: 0.85;
-  transition: opacity 0.25s;
-  padding: 0 0 30px 0;
 }
 @media (max-width: 600px) {
   .matcontainer {
@@ -88,6 +82,7 @@ body {
   }
   .matcontainerINV{
     margin: 0;
+    flex: 1 0 80%;
   }
 }
 
