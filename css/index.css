@@ -82,9 +82,13 @@ body {
   opacity: 1;
 }
 
+:root {
+  --class-black: #000000;
+  --class-purple: #c330b2;
+}
+
 .titlemat {
-  --class-item-bg: #000000;
-  background-color: var(--class-item-bg);
+  background-color: var(--class-black);
   border-radius: 10px 10px 0 0;
   padding: 15px;
   color: white;
@@ -105,6 +109,7 @@ body {
 .textmat a {
   line-height: 40px;
   text-decoration: none;
+  margin: 0 10px 0 0;
 }
 
 .textmat a:hover {
@@ -114,4 +119,14 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.infobox{
+  color: white;
+  background-color: var(--class-purple);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0px;
+  font-size: 0.6em;
+  position: relative;
 }
