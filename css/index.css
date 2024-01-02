@@ -56,9 +56,20 @@ body {
   opacity: 0.8;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 80vh; /* Ajusta la altura al 100% de la altura de la ventana del navegador */
+}
+
+.invrow {
+  flex-grow: 1; /* Permite que los elementos crezcan para ocupar cualquier espacio extra */
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .matcontainer {
@@ -71,10 +82,16 @@ body {
   opacity: 0.85;
   transition: opacity 0.25s;
   padding: 0 0 30px 0;
+  max-width: 35%;
+}
+
+.matcontainer:hover{
+  opacity: 1;
 }
 .matcontainerINV {
   flex: 1;
   margin: 25px 25px 0 25px;
+  max-width: 35%;
 }
 @media (max-width: 600px) {
   .matcontainer {
@@ -84,10 +101,9 @@ body {
     margin: 0;
     flex: 1 0 80%;
   }
-}
-
-.matcontainer:hover {
-  opacity: 1;
+  .row{
+    justify-content: baseline;
+  }
 }
 
 :root {
