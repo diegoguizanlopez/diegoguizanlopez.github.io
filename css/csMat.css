@@ -26,6 +26,7 @@ a.actual {
   font-family: "Roboto";
   text-decoration: none;
 }
+
 a.actual:hover{
   text-decoration: none;
   color: white;
@@ -38,7 +39,6 @@ a.deactive {
 a.deactive:hover{
   background-color: #c5c500;
 }
-
 
 .d-flex a {
   padding: 10px 20px;
@@ -98,7 +98,7 @@ a.deactive:hover{
     max-width: 50%;
   }
 
-  .row {
+  .row1 {
     justify-content: baseline;
   }
 }
@@ -137,7 +137,7 @@ a.deactive:hover{
   text-decoration: underline;
 }
 
-.row {
+.row1 {
   display: flex;
   flex-wrap: wrap;
 }
