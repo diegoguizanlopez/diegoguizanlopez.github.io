@@ -10,6 +10,7 @@ body {
   background-image: url("../assets/images/CyberBackGround.jpg");
   background-size: 100% 100%;
   padding-top: 60px;
+  font-family: 'Roboto';
 }
 
 /*TOP VAR*/
@@ -22,6 +23,7 @@ body {
   top: 0px;
   z-index: 10000;
   width: 100%;
+  height: 50px;
 }
 
 /* Style the links inside the navigation bar */
@@ -36,33 +38,36 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: red;
-  color: red;
+  background-color: black;
+  color: black;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.topnav a.actual {
   background-color: black;
   color: white;
 }
 
 .topnav a.deactive {
   background-color: #f6e837;
-  color: white;
+  color: #2a282a;
   transition: opacity 0.1s;
 }
 
 .topnav a.deactive:hover {
   opacity: 0.8;
 }
+
 .main {
   display: flex;
   flex-direction: column;
-  height: 80vh; /* Ajusta la altura al 100% de la altura de la ventana del navegador */
+  height: 80vh;
+  /* Ajusta la altura al 100% de la altura de la ventana del navegador */
 }
 
 .invrow {
-  flex-grow: 1; /* Permite que los elementos crezcan para ocupar cualquier espacio extra */
+  flex-grow: 1;
+  /* Permite que los elementos crezcan para ocupar cualquier espacio extra */
 }
 
 .row {
@@ -84,26 +89,30 @@ body {
   max-width: 35%;
 }
 
-.matcontainer:hover{
+.matcontainer:hover {
   opacity: 1;
 }
+
 .matcontainerINV {
   flex: 1;
   margin: 25px 25px 0 25px;
   max-width: 35%;
 }
+
 @media (max-width: 600px) {
   .matcontainer {
     flex: 1 0 80%;
     margin: 25px 25px 0 25px;
     max-width: 75%;
   }
-  .matcontainerINV{
+
+  .matcontainerINV {
     margin: 0;
     flex: 1 0 80%;
     max-width: 50%;
   }
-  .row{
+
+  .row {
     justify-content: baseline;
   }
 }
@@ -124,7 +133,7 @@ body {
   white-space: pre;
 }
 
-.titlemat strong{
+.titlemat strong {
   font-size: 20px;
 }
 
@@ -147,7 +156,7 @@ body {
   flex-wrap: wrap;
 }
 
-.infobox{
+.infobox {
   color: white;
   background-color: var(--class-purple);
   border-radius: 10px;
