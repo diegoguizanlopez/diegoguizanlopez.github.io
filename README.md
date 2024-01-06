@@ -1,2 +1,2 @@
 # Página principal de Diego Guizán López 
-## Sea biemvenido a hecharle un ojo (:
+## Sea bienvenido a hecharle un ojo (:
