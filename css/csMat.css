@@ -9,7 +9,7 @@ body {
   margin: 0;
   background-image: url("../assets/images/CyberBackGround.jpg");
   background-size: 100% 100%;
-  font-family: 'Roboto';
+  font-family: 'Serif';
 }
 
 .navbar-custom {
@@ -23,7 +23,7 @@ body {
 a.actual {
   background-color: black;
   color: white;
-  font-family: "Roboto";
+  font-family: "sans-serif";
   text-decoration: none;
 }
 
@@ -106,6 +106,7 @@ a.deactive:hover{
 :root {
   --class-black: #000000;
   --class-purple: #c330b2;
+  --class-dark-black: #0f0f0f;
 }
 
 .titlemat {
@@ -151,4 +152,25 @@ a.deactive:hover{
   font-size: 0.6em;
   position: relative;
   white-space: nowrap;
+}
+nav
+{
+   position: fixed;
+   top: 0px;
+}
+
+.container-fluid.custom-container{
+  background-color: var(--class-dark-black);
+}
+
+.list-group-mine .list-group-item {
+  background-color: var(--class-dark-black);
+  color: white;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+li {
+  margin: 10px 0;
 }
