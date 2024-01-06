@@ -68,11 +68,11 @@ a.deactive:hover{
   border-radius: 10px;
   border: black;
   background-color: #f6e837;
-  margin: 25px 25px 0 25px;
+  margin: 25px;
   opacity: 0.85;
   transition: opacity 0.25s;
   padding: 0 0 30px 0;
-  max-width: 35%;
+  max-width: 45%;
 }
 
 .matcontainer:hover {
@@ -173,4 +173,17 @@ nav
 }
 li {
   margin: 10px 0;
+}
+
+body{
+  position: relative;
+}
+main{
+  margin-bottom: 220px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  /* otras propiedades */
+  width: 100%;
 }
