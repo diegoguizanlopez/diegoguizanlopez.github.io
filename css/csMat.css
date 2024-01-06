@@ -9,63 +9,54 @@ body {
   margin: 0;
   background-image: url("../assets/images/CyberBackGround.jpg");
   background-size: 100% 100%;
-  padding-top: 60px;
+  font-family: 'Serif';
 }
 
-/*TOP VAR*/
-
-/* Add a black background color to the top navigation */
-.topnav {
+.navbar-custom {
   background-color: black;
-  overflow: hidden;
-  position: fixed;
-  top: 0px;
-  z-index: 10000;
-  width: 100%;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: red;
-  color: red;
+  margin: 0px !important;
+  padding: 0px !important;
+  height: 50px;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+a.actual {
   background-color: black;
   color: white;
+  font-family: "sans-serif";
+  text-decoration: none;
 }
 
-.topnav a.deactive {
-  background-color: #f6e837;
+a.actual:hover{
+  text-decoration: none;
   color: white;
-  transition: opacity 0.1s;
 }
 
-.topnav a.deactive:hover {
-  opacity: 0.8;
+a.deactive {
+  background-color: yellow;
 }
+
+a.deactive:hover{
+  background-color: #c5c500;
+}
+
+.d-flex a {
+  padding: 10px 20px;
+}
+
 .main {
   display: flex;
   flex-direction: column;
-  height: 80vh; /* Ajusta la altura al 100% de la altura de la ventana del navegador */
+  height: 80vh;
+  /* Ajusta la altura al 100% de la altura de la ventana del navegador */
 }
 
 .invrow {
-  flex-grow: 1; /* Permite que los elementos crezcan para ocupar cualquier espacio extra */
+  flex-grow: 1;
+  /* Permite que los elementos crezcan para ocupar cualquier espacio extra */
 }
 
-.row {
+.row1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -84,26 +75,30 @@ body {
   max-width: 35%;
 }
 
-.matcontainer:hover{
+.matcontainer:hover {
   opacity: 1;
 }
+
 .matcontainerINV {
   flex: 1;
   margin: 25px 25px 0 25px;
   max-width: 35%;
 }
+
 @media (max-width: 600px) {
   .matcontainer {
     flex: 1 0 80%;
     margin: 25px 25px 0 25px;
     max-width: 75%;
   }
-  .matcontainerINV{
+
+  .matcontainerINV {
     margin: 0;
     flex: 1 0 80%;
     max-width: 50%;
   }
-  .row{
+
+  .row1 {
     justify-content: baseline;
   }
 }
@@ -111,6 +106,7 @@ body {
 :root {
   --class-black: #000000;
   --class-purple: #c330b2;
+  --class-dark-black: #0f0f0f;
 }
 
 .titlemat {
@@ -124,7 +120,7 @@ body {
   white-space: pre;
 }
 
-.titlemat strong{
+.titlemat strong {
   font-size: 20px;
 }
 
@@ -142,12 +138,12 @@ body {
   text-decoration: underline;
 }
 
-.row {
+.row1 {
   display: flex;
   flex-wrap: wrap;
 }
 
-.infobox{
+.infobox {
   color: white;
   background-color: var(--class-purple);
   border-radius: 10px;
@@ -156,4 +152,25 @@ body {
   font-size: 0.6em;
   position: relative;
   white-space: nowrap;
+}
+nav
+{
+   position: fixed;
+   top: 0px;
+}
+
+.container-fluid.custom-container{
+  background-color: var(--class-dark-black);
+}
+
+.list-group-mine .list-group-item {
+  background-color: var(--class-dark-black);
+  color: white;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+li {
+  margin: 10px 0;
 }
