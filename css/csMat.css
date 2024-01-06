@@ -3,6 +3,10 @@ html {
   min-height: 100%;
   margin: 0;
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 body {
   min-height: 100%;
@@ -73,7 +77,6 @@ a.deactive:hover {
   opacity: 0.85;
   transition: opacity 0.25s;
   padding: 0 0 30px 0;
-  max-width: 45%;
 }
 
 .matcontainer:hover {
