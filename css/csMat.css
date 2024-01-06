@@ -10,6 +10,7 @@ body {
   background-image: url("../assets/images/CyberBackGround.jpg");
   background-size: 100% 100%;
   font-family: 'Serif';
+  overflow-x: hidden;
 }
 
 .navbar-custom {
@@ -27,7 +28,7 @@ a.actual {
   text-decoration: none;
 }
 
-a.actual:hover{
+a.actual:hover {
   text-decoration: none;
   color: white;
 }
@@ -36,7 +37,7 @@ a.deactive {
   background-color: yellow;
 }
 
-a.deactive:hover{
+a.deactive:hover {
   background-color: #c5c500;
 }
 
@@ -85,23 +86,6 @@ a.deactive:hover{
   max-width: 35%;
 }
 
-@media (max-width: 600px) {
-  .matcontainer {
-    flex: 1 0 80%;
-    margin: 25px 25px 0 25px;
-    max-width: 75%;
-  }
-
-  .matcontainerINV {
-    margin: 0;
-    flex: 1 0 80%;
-    max-width: 50%;
-  }
-
-  .row1 {
-    justify-content: baseline;
-  }
-}
 
 :root {
   --class-black: #000000;
@@ -153,13 +137,13 @@ a.deactive:hover{
   position: relative;
   white-space: nowrap;
 }
-nav
-{
-   position: fixed;
-   top: 0px;
+
+nav {
+  position: fixed;
+  top: 0px;
 }
 
-.container-fluid.custom-container{
+.container-fluid.custom-container {
   background-color: var(--class-dark-black);
 }
 
@@ -171,19 +155,25 @@ nav
   align-items: center;
   border: none;
 }
+
 li {
   margin: 10px 0;
 }
 
-body{
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
   position: relative;
+  min-height: 100%;
 }
-main{
-  margin-bottom: 220px;
-}
-footer {
+
+.footer {
   position: fixed;
   bottom: 0;
-  /* otras propiedades */
   width: 100%;
+  background-color: #f8f9fa;
 }
