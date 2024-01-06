@@ -142,6 +142,9 @@ nav {
   top: 0px;
 }
 
+#container-fluid{
+  min-height: calc(100vh - 50px);
+}
 .container-fluid.custom-container {
   background-color: var(--class-dark-black);
 }
