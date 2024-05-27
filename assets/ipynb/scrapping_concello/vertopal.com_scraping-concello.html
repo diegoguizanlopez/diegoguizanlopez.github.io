@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>9689b323daac4ac49ef86cb886c7400a</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section
+id="extraer-con-selenium-datos-de-licitacións-do-concello-da-coruña"
+class="cell markdown">
+<h1><strong>Extraer con selenium datos de licitacións do Concello da
+Coruña</strong></h1>
+</section>
+<section id="importación" class="cell markdown">
+<h1>Importación</h1>
+</section>
+<div class="cell markdown">
+<p>Inicializamos el GeckoDriver con la última versión y le decimos que
+utilice FireFox</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Instalar gecko</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> webdriver_manager.firefox <span class="im">import</span> GeckoDriverManager</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Abrir un navegador</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> selenium <span class="im">import</span> webdriver</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> selenium.webdriver.common.by <span class="im">import</span> By</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>driver <span class="op">=</span> webdriver.Firefox(executable_path<span class="op">=</span>GeckoDriverManager(version<span class="op">=</span><span class="st">&quot;v0.34.0&quot;</span>).install())</span></code></pre></div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> argparse</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> enum <span class="im">import</span> Enum</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sys</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> selenium <span class="im">import</span> webdriver</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> selenium.webdriver.common.by <span class="im">import</span> By</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> selenium <span class="im">import</span> webdriver</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> selenium.webdriver.common.keys <span class="im">import</span> Keys</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> selenium.webdriver.support.ui <span class="im">import</span> WebDriverWait</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> selenium.webdriver.support <span class="im">import</span> expected_conditions <span class="im">as</span> EC</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> selenium.webdriver.support.select <span class="im">import</span> Select</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> selenium.webdriver.common.action_chains <span class="im">import</span> ActionChains</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Definimos la ruta donde se guardarán las capturas de pantalla
+definidas por el Driver</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pathlib</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>path<span class="op">=</span><span class="bu">str</span>(pathlib.Path().resolve())<span class="op">+</span><span class="st">&quot;/Imagenes/&quot;</span></span></code></pre></div>
+</div>
+<section id="métodos" class="cell markdown">
+<h1>Métodos</h1>
+</section>
+<div class="cell code">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> waitFinishLoad(driver,idLoader,needsDisapeared<span class="op">=</span><span class="va">False</span>,by<span class="op">=</span>By.ID,needsWait<span class="op">=</span><span class="va">True</span>):</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Espera a la carga de un elemento antes de continuar</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">        driver (WebDriver): WebDriver</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">        idLoader (str): Id a buscar, puede ser XPath...</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co">        needsDisapeared (bool, optional): Si el elemento a esperar tiene que aparecer o desaparecer como un CircularProgress. Defaults to False.</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co">        by (str, optional): Tipo de By a buscar el Wait. Defaults to By.ID.</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co">        needsWait (bool, optional): Si necesita esperar un extra para que no pueda saltar un Captcha. Defaults to False.</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> idLoader <span class="kw">is</span> <span class="va">None</span>:</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    WebDriverWait(driver, timeout<span class="op">=</span><span class="dv">60</span>).until(EC.presence_of_element_located((by, idLoader)))</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> needsDisapeared:</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>        WebDriverWait(driver, timeout<span class="op">=</span><span class="dv">60</span>).until(EC.invisibility_of_element((by, idLoader)))</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> needsWait:</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>        time.sleep(random.choice([<span class="fl">0.05</span>,<span class="fl">0.1</span>,<span class="fl">0.2</span>]))</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> elementBy(query,driver,<span class="op">**</span>kargs):</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Devuelve un element|None dependiendo de la consulta</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a><span class="co">        query (str): Busqueda a realizar del elemento</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="co">        driver (WebDriver): WebDriver</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a><span class="co">        Element|None: Elemento de la búsqueda</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> kargs.get(<span class="st">&quot;needsWait&quot;</span>,<span class="va">False</span>):</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>        waitFinishLoad(driver,kargs.get(<span class="st">&quot;idLoader&quot;</span>,<span class="va">None</span>),by<span class="op">=</span>kargs.get(<span class="st">&quot;by&quot;</span>,By.ID),needsWait<span class="op">=</span>kargs.get(<span class="st">&quot;needsWait&quot;</span>,<span class="va">False</span>))</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>        element<span class="op">=</span>driver.find_element(kargs.get(<span class="st">&quot;byq&quot;</span>,By.XPATH),query)</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> kargs.get(<span class="st">&quot;screenshot&quot;</span>):</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>            driver.execute_script(<span class="st">&quot;arguments[0].scrollIntoView();&quot;</span>, element)</span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>            screenshot(driver,kargs.get(<span class="st">&quot;screenshot&quot;</span>))</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span>:</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>        screenshot(driver,kargs.get(<span class="st">&quot;screenshot&quot;</span>))</span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">None</span></span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>    waitFinishLoad(driver,kargs.get(<span class="st">&quot;idLoader&quot;</span>,<span class="va">None</span>),by<span class="op">=</span>kargs.get(<span class="st">&quot;by&quot;</span>,By.ID),needsWait<span class="op">=</span>kargs.get(<span class="st">&quot;needsWait&quot;</span>,<span class="va">False</span>))</span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> element</span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> elementByClick(query,driver,<span class="op">**</span>kargs):</span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Hace click en un elemento</span></span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a><span class="co">        query (str): Busqueda a realizar del elemento</span></span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a><span class="co">        driver (WebDriver): WebDriver</span></span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> kargs.get(<span class="st">&quot;needsWait&quot;</span>,<span class="va">False</span>):</span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a>        waitFinishLoad(driver,kargs.get(<span class="st">&quot;idLoader&quot;</span>,<span class="va">None</span>),by<span class="op">=</span>kargs.get(<span class="st">&quot;by&quot;</span>,By.ID),needsWait<span class="op">=</span>kargs.get(<span class="st">&quot;needsWait&quot;</span>,<span class="va">False</span>))</span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> kargs.get(<span class="st">&quot;screenshot&quot;</span>):</span>
+<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a>        screenshot(driver,kargs.get(<span class="st">&quot;screenshot&quot;</span>))</span>
+<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>    element<span class="op">=</span>driver.find_element(kargs.get(<span class="st">&quot;byq&quot;</span>,By.XPATH),query)</span>
+<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a>    element.click()</span>
+<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>    waitFinishLoad(driver,kargs.get(<span class="st">&quot;idLoader&quot;</span>,<span class="va">None</span>),by<span class="op">=</span>kargs.get(<span class="st">&quot;by&quot;</span>,By.ID),needsWait<span class="op">=</span>kargs.get(<span class="st">&quot;needsWait&quot;</span>,<span class="va">False</span>))</span>
+<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> element</span>
+<span id="cb4-58"><a href="#cb4-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-59"><a href="#cb4-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> elementsBy(query,driver,<span class="op">**</span>kargs):</span>
+<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Devuelve una lista de elements dependiendo de la consulta</span></span>
+<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a><span class="co">        query (str): Busqueda a realizar del elemento</span></span>
+<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a><span class="co">        driver (WebDriver): WebDriver</span></span>
+<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a><span class="co">        List&lt;Element&gt;: Lista de elementos</span></span>
+<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> kargs.get(<span class="st">&quot;needsWait&quot;</span>,<span class="va">False</span>):</span>
+<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>        waitFinishLoad(driver,kargs.get(<span class="st">&quot;idLoader&quot;</span>,<span class="va">None</span>),by<span class="op">=</span>kargs.get(<span class="st">&quot;by&quot;</span>,By.ID),needsWait<span class="op">=</span>kargs.get(<span class="st">&quot;needsWait&quot;</span>,<span class="va">False</span>))</span>
+<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a>    element<span class="op">=</span>driver.find_elements(kargs.get(<span class="st">&quot;byq&quot;</span>,By.XPATH),query)</span>
+<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a>    waitFinishLoad(driver,kargs.get(<span class="st">&quot;idLoader&quot;</span>,<span class="va">None</span>),by<span class="op">=</span>kargs.get(<span class="st">&quot;by&quot;</span>,By.ID),needsWait<span class="op">=</span>kargs.get(<span class="st">&quot;needsWait&quot;</span>,<span class="va">False</span>))</span>
+<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> element</span>
+<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> clickEvent(driver,element,<span class="op">**</span>kargs):</span>
+<span id="cb4-78"><a href="#cb4-78" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Click en un elemento que funciona con evento</span></span>
+<span id="cb4-79"><a href="#cb4-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a><span class="co">        driver (WebDriver): WebDriver</span></span>
+<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a><span class="co">        element (Element): Elemento que tiene el evento</span></span>
+<span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> kargs.get(<span class="st">&quot;needsWait&quot;</span>,<span class="va">False</span>):</span>
+<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a>        waitFinishLoad(driver,kargs.get(<span class="st">&quot;idLoader&quot;</span>,<span class="va">None</span>),by<span class="op">=</span>kargs.get(<span class="st">&quot;by&quot;</span>,By.ID),needsWait<span class="op">=</span>kargs.get(<span class="st">&quot;needsWait&quot;</span>,<span class="va">False</span>))</span>
+<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> kargs.get(<span class="st">&quot;normal&quot;</span>,<span class="va">False</span>):</span>
+<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a>        element.click</span>
+<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a>        <span class="cf">try</span>:</span>
+<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a>            driver.execute_script(element.get_dom_attribute(<span class="st">&quot;onClick&quot;</span>))</span>
+<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a>        <span class="cf">except</span>:</span>
+<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a>            element.click</span>
+<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a>    waitFinishLoad(driver,kargs.get(<span class="st">&quot;idLoader&quot;</span>,<span class="va">None</span>),by<span class="op">=</span>kargs.get(<span class="st">&quot;by&quot;</span>,By.ID),needsWait<span class="op">=</span>kargs.get(<span class="st">&quot;needsWait&quot;</span>,<span class="va">False</span>))</span>
+<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> kargs.get(<span class="st">&quot;screenshot&quot;</span>):</span>
+<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a>        screenshot(driver,kargs.get(<span class="st">&quot;screenshot&quot;</span>))</span>
+<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> clickElement(driver,element,<span class="op">**</span>kargs):</span>
+<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Click en un elemento que funciona con evento</span></span>
+<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a><span class="co">        driver (WebDriver): WebDriver</span></span>
+<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a><span class="co">        element (Element): Elemento que tiene el evento</span></span>
+<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> goToNextPage(driver):</span>
+<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Cambia de página en la pantalla de siguiente</span></span>
+<span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-110"><a href="#cb4-110" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb4-111"><a href="#cb4-111" aria-hidden="true" tabindex="-1"></a><span class="co">        driver (WebDriver): WebDriver</span></span>
+<span id="cb4-112"><a href="#cb4-112" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb4-113"><a href="#cb4-113" aria-hidden="true" tabindex="-1"></a>    element<span class="op">=</span>elementBy(<span class="st">&quot;//input[@value=&#39;Siguiente&#39;]&quot;</span>,driver,idLoader<span class="op">=</span><span class="st">&quot;//table[@id=&#39;myTablaBusquedaCustom&#39;]&quot;</span>,by<span class="op">=</span>By.XPATH)</span>
+<span id="cb4-114"><a href="#cb4-114" aria-hidden="true" tabindex="-1"></a>    driver.execute_script(<span class="st">&quot;arguments[0].scrollIntoView();&quot;</span>, element)</span>
+<span id="cb4-115"><a href="#cb4-115" aria-hidden="true" tabindex="-1"></a>    element.click()</span>
+<span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-117"><a href="#cb4-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-118"><a href="#cb4-118" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> checkEndPage(driver,<span class="op">**</span>kargs):</span>
+<span id="cb4-119"><a href="#cb4-119" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Comprueba si es el final y no hay más siguiente devuelve un booleano</span></span>
+<span id="cb4-120"><a href="#cb4-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-121"><a href="#cb4-121" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb4-122"><a href="#cb4-122" aria-hidden="true" tabindex="-1"></a><span class="co">        driver (WebDriver): WebDriver</span></span>
+<span id="cb4-123"><a href="#cb4-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-124"><a href="#cb4-124" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb4-125"><a href="#cb4-125" aria-hidden="true" tabindex="-1"></a><span class="co">        Bool: True si es el final o False si no es</span></span>
+<span id="cb4-126"><a href="#cb4-126" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb4-127"><a href="#cb4-127" aria-hidden="true" tabindex="-1"></a>    element<span class="op">=</span>elementBy(<span class="st">&quot;//input[@value=&#39;Siguiente&#39;]&quot;</span>,driver,idLoader<span class="op">=</span><span class="st">&quot;//table[@id=&#39;myTablaBusquedaCustom&#39;]&quot;</span>,by<span class="op">=</span>By.XPATH)</span>
+<span id="cb4-128"><a href="#cb4-128" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> kargs.get(<span class="st">&quot;screenshot&quot;</span>):</span>
+<span id="cb4-129"><a href="#cb4-129" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> element:</span>
+<span id="cb4-130"><a href="#cb4-130" aria-hidden="true" tabindex="-1"></a>            driver.execute_script(<span class="st">&quot;arguments[0].scrollIntoView();&quot;</span>, element)</span>
+<span id="cb4-131"><a href="#cb4-131" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb4-132"><a href="#cb4-132" aria-hidden="true" tabindex="-1"></a>            driver.execute_script(<span class="st">&quot;arguments[0].scrollIntoView();&quot;</span>, elementBy(<span class="st">&quot;//input[@value=&#39;Último&#39;]&quot;</span>,driver))</span>
+<span id="cb4-133"><a href="#cb4-133" aria-hidden="true" tabindex="-1"></a>        screenshot(driver,kargs.get(<span class="st">&quot;screenshot&quot;</span>))</span>
+<span id="cb4-134"><a href="#cb4-134" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> element:</span>
+<span id="cb4-135"><a href="#cb4-135" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">True</span></span>
+<span id="cb4-136"><a href="#cb4-136" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">False</span></span>
+<span id="cb4-137"><a href="#cb4-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-138"><a href="#cb4-138" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-139"><a href="#cb4-139" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> screenshot(driver,filename):</span>
+<span id="cb4-140"><a href="#cb4-140" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;Saca la captura de pantalla y lo guarda en la ruta Imagenes</span></span>
+<span id="cb4-141"><a href="#cb4-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-142"><a href="#cb4-142" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb4-143"><a href="#cb4-143" aria-hidden="true" tabindex="-1"></a><span class="co">        driver (WebDriver): WebDriver</span></span>
+<span id="cb4-144"><a href="#cb4-144" aria-hidden="true" tabindex="-1"></a><span class="co">        filename (str): Nombre de la captura de pantalla</span></span>
+<span id="cb4-145"><a href="#cb4-145" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb4-146"><a href="#cb4-146" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> filename:</span>
+<span id="cb4-147"><a href="#cb4-147" aria-hidden="true" tabindex="-1"></a>        driver.save_screenshot(path<span class="op">+</span>filename)</span></code></pre></div>
+</div>
+<section id="scrapping" class="cell markdown">
+<h1>Scrapping</h1>
+</section>
+<div class="cell markdown">
+<p>Entramos en la ruta de la contratación del estado</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>driver.get(<span class="st">&quot;https://contrataciondelestado.es&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Vamos al apartado de públicaciones</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>elementBy(<span class="st">&quot;//a[@title=&#39;Buscar publicaciones&#39;]&quot;</span>,driver,idLoader<span class="op">=</span><span class="st">&quot;footer-newShow&quot;</span>,screenshot<span class="op">=</span><span class="st">&quot;Inicio.png&quot;</span>).click()</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Vamos al apartado de licitaciones</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># No es un enlace cualquiera, este esta gestionado por un script que controlaremos por código </span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>licitacion<span class="op">=</span>elementBy(<span class="st">&quot;//div[@class=&#39;divLogo&#39;]/a&quot;</span>,driver,idLoader<span class="op">=</span><span class="st">&quot;footer-newShow&quot;</span>,screenshot<span class="op">=</span><span class="st">&quot;Busca.png&quot;</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>clickEvent(driver,licitacion)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Le damos al texto de búsqueda avanzada</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>busqueda_avanzada<span class="op">=</span>elementBy(<span class="st">&quot;//div[@class=&#39;capaAvanzada&#39;]/a&quot;</span>,driver,by<span class="op">=</span>By.XPATH,idLoader<span class="op">=</span><span class="st">&quot;//div[@class=&#39;capaAvanzada&#39;]&quot;</span>,screenshot<span class="op">=</span><span class="st">&quot;Formulario.png&quot;</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>clickEvent(driver,busqueda_avanzada)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Y seleccionamos el elemento seleccionar para ir a la zona de
+Organización contratante</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>seleccionar<span class="op">=</span>elementBy(<span class="st">&quot;//div[@class=&#39;inlinebloque   &#39;]/a&quot;</span>,driver,by<span class="op">=</span>By.XPATH,idLoader<span class="op">=</span><span class="st">&quot;//div[@class=&#39;inlinebloque   &#39;]/a&quot;</span>,screenshot<span class="op">=</span><span class="st">&quot;FormularioAvanzado.png&quot;</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>clickEvent(driver,seleccionar)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Definición método en búcle de la lista para obtener el último
+apartado (Coruña)</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_corunha(<span class="bu">list</span>,driver,i<span class="op">=</span><span class="dv">2</span>):</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot; Va através de la lisa recorriendo hasta llegar el último elemento que lo devuelve</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="co">        list (str): Textos</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co">        driver (WebDriver): WebDriver</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="co">        i (int, optional): Valor inicial. Defaults to 2.</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    driver.save_screenshot(path<span class="op">+</span><span class="ss">f&quot;Sector-</span><span class="sc">{</span><span class="bu">list</span>[i<span class="op">-</span><span class="dv">2</span>] <span class="cf">if</span> <span class="bu">len</span>(<span class="bu">list</span>)<span class="op">!=</span>i<span class="op">-</span><span class="dv">1</span> <span class="cf">else</span> <span class="ss">f&#39;</span><span class="sc">{</span><span class="bu">list</span>[i<span class="op">-</span><span class="dv">2</span>]<span class="sc">}</span><span class="ss">2&#39;</span><span class="sc">}</span><span class="ss">.png&quot;</span>)</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> i<span class="op">-</span><span class="dv">2</span><span class="op">&lt;</span><span class="bu">len</span>(<span class="bu">list</span>):</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>        q<span class="op">=</span><span class="ss">f&quot;//*[text()=&#39;</span><span class="sc">{</span><span class="bu">list</span>[i<span class="op">-</span><span class="dv">2</span>]<span class="sc">}</span><span class="ss">&#39;]&quot;</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">len</span>(<span class="bu">list</span>)<span class="op">!=</span>i<span class="op">-</span><span class="dv">1</span>:</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>            q<span class="op">+=</span><span class="st">&quot;/../..&quot;</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>            query<span class="op">=</span><span class="ss">f&quot;</span><span class="sc">{</span>q<span class="sc">}</span><span class="ss">/td[</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">]&quot;</span></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>            total <span class="op">=</span> <span class="ss">f&quot;</span><span class="sc">{</span>q<span class="sc">}</span><span class="ss">/../../../..&quot;</span> <span class="cf">if</span> i<span class="op">!=</span><span class="dv">2</span> <span class="cf">else</span> <span class="st">&#39;footer-newShow&#39;</span></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>            query<span class="op">=</span>q</span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>            q2<span class="op">=</span><span class="ss">f&quot;</span><span class="sc">{</span>q<span class="sc">}</span><span class="ss">/../..&quot;</span></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>            total <span class="op">=</span> <span class="ss">f&quot;</span><span class="sc">{</span>q2<span class="sc">}</span><span class="ss">/../../../..&quot;</span></span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">len</span>(<span class="bu">list</span>)<span class="op">!=</span>i<span class="op">-</span><span class="dv">1</span>:</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>            elementByClick(query,driver,by<span class="op">=</span>By.XPATH <span class="cf">if</span> i<span class="op">!=</span><span class="dv">2</span> <span class="cf">else</span> By.ID,idLoader<span class="op">=</span>total)</span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> elementsBy(query,driver,by<span class="op">=</span>By.XPATH <span class="cf">if</span> i<span class="op">!=</span><span class="dv">2</span> <span class="cf">else</span> By.ID,idLoader<span class="op">=</span>total)</span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> i<span class="op">-</span><span class="dv">1</span><span class="op">!=</span><span class="bu">len</span>(<span class="bu">list</span>):</span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> get_corunha(<span class="bu">list</span>,driver,i<span class="op">+</span><span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Esperamos a que cargue el primer elemento y en forma de bucle vamos
+esperando que el elemento cargue la lista que tiene abajo en forma de
+"Tree" y vaya abriendo de manera repetitiva, hasta obtener el último
+elemento y le daremos click al texto. Tras esto le diremos que escoja el
+primer órgano de contratación y le damos a añadir</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>waitFinishLoad(driver,by<span class="op">=</span>By.XPATH,idLoader<span class="op">=</span><span class="st">&quot;//*[text()=&#39;ENTIDADES LOCALES&#39;]&quot;</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>get_corunha([<span class="st">&#39;ENTIDADES LOCALES&#39;</span>,<span class="st">&#39;Galicia&#39;</span>,<span class="st">&#39;A Coruña&#39;</span>,<span class="st">&#39;Ayuntamientos&#39;</span>,<span class="st">&#39;A Coruña&#39;</span>],driver)[<span class="dv">1</span>].click()</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>elementByClick(<span class="st">&quot;//span/select/option[1]&quot;</span>,driver,idLoader<span class="op">=</span><span class="st">&quot;//span/select/option[1]&quot;</span>,by<span class="op">=</span>By.XPATH)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>elementByClick(<span class="st">&quot;//*[@value=&#39;Añadir&#39;]&quot;</span>,driver)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Le damos al botón de buscar</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>elementByClick(<span class="st">&quot;//*[@title=&#39;Buscar&#39;]&quot;</span>,driver,idLoader<span class="op">=</span><span class="st">&quot;//*[@title=&#39;Buscar&#39;]&quot;</span>,by<span class="op">=</span>By.XPATH)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Y le decimos en un bucle que vaya añadiendo a un DataFrame los
+valores de la tabla y que si es la última pare el bucle</p>
+<p>También entra en cada uno de los expedientes y saca captura</p>
+<p><em>Solo las dos primeras para probar, si se quitara el if hace de
+todas hasta el final</em></p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> io <span class="im">import</span> StringIO</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bs4 <span class="im">import</span> BeautifulSoup</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>dfT <span class="op">=</span> pd.DataFrame([])</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>i<span class="op">=</span><span class="dv">0</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span>(<span class="va">True</span>):</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    <span class="co">#region DataFrame</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>    waitFinishLoad(driver,by<span class="op">=</span>By.XPATH,idLoader<span class="op">=</span><span class="st">&quot;//div/span[text()=&#39;Importe&#39;]&quot;</span>)</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>    i<span class="op">+=</span><span class="dv">1</span></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>    url <span class="op">=</span> driver.current_url</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>    soup<span class="op">=</span>BeautifulSoup(driver.page_source,<span class="st">&#39;html.parser&#39;</span>)</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>    df<span class="op">=</span>pd.read_html(StringIO(<span class="bu">str</span>(soup.find(<span class="bu">id</span><span class="op">=</span><span class="st">&quot;myTablaBusquedaCustom&quot;</span>))))[<span class="dv">0</span>]</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>    df<span class="op">=</span>df[<span class="op">~</span>df.iloc[:,<span class="dv">0</span>].<span class="bu">str</span>.startswith(<span class="st">&#39;Página&#39;</span>)]</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>    dfT<span class="op">=</span>pd.concat([dfT,df])</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>    <span class="co">#endregion</span></span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>    <span class="co">#region Expediente Independiente</span></span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>    <span class="co">#if i&lt;3:  #SE TENDRÍA QUE BORRAR LA LÍNEA PARA SACAR CAPTURAS DE TODOS LOS EXPEDIENTES, SOLO SON LAS DOS PRIMERAS PÁGINAS</span></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>    elements <span class="op">=</span> elementsBy(<span class="st">&quot;//tbody/tr/td/div/a[2]&quot;</span>,driver)</span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(elements)):</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>        element <span class="op">=</span> elementsBy(<span class="st">&quot;//tbody/tr/td/div/a[2]&quot;</span>,driver,by<span class="op">=</span>By.XPATH,idLoader<span class="op">=</span><span class="st">&quot;//div/span[text()=&#39;Importe&#39;]&quot;</span>,needsWait<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Abre en una nueva tab el expediente, le saca captura y la cierra</span></span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>        driver.execute_script(<span class="ss">f&quot;window.open(&#39;</span><span class="sc">{</span>element[x]<span class="sc">.</span>get_dom_attribute(<span class="st">&#39;href&#39;</span>)<span class="sc">}</span><span class="ss">&#39;)&quot;</span>)</span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>        driver.switch_to.window(driver.window_handles[<span class="dv">1</span>])</span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>        <span class="cf">try</span>:</span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>            waitFinishLoad(driver,by<span class="op">=</span>By.XPATH,idLoader<span class="op">=</span><span class="st">&quot;//ul/li/span[text()=&#39;Expediente:&#39;]&quot;</span>,needsWait<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>            screenshot(driver,<span class="ss">f&quot;Expedientes/ExpIndiv/expediente-P</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">-</span><span class="sc">{</span>x<span class="sc">}</span><span class="ss">.png&quot;</span>)</span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>        <span class="cf">except</span>:</span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f&quot;NO LE DIÓ TIEMPO, se saltará el </span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">-</span><span class="sc">{</span>x<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a>        driver.close()</span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a>        driver.switch_to.window(driver.window_handles[<span class="dv">0</span>])</span>
+<span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a>        driver.get(url)</span>
+<span id="cb13-37"><a href="#cb13-37" aria-hidden="true" tabindex="-1"></a>    <span class="co">#endregion</span></span>
+<span id="cb13-38"><a href="#cb13-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-39"><a href="#cb13-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> checkEndPage(driver,screenshot<span class="op">=</span><span class="ss">f&quot;Expedientes/Tablas/PaginaTabla</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">.png&quot;</span>):</span>
+<span id="cb13-40"><a href="#cb13-40" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb13-41"><a href="#cb13-41" aria-hidden="true" tabindex="-1"></a>    goToNextPage(driver)</span>
+<span id="cb13-42"><a href="#cb13-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-43"><a href="#cb13-43" aria-hidden="true" tabindex="-1"></a>driver.close()</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Limpiamos un poco las columnas y le decimos que si hay una minúscula
+más una mayúscula juntas que añada un /n, esto significa que debería
+haber un salto de línea y remplazamos las , y . para que no de problemas
+el Float</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> numpy <span class="im">import</span> float64</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> dfT.columns:</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>    dfT[i] <span class="op">=</span> dfT[i].<span class="bu">str</span>.replace(<span class="vs">r&#39;(?&lt;![A-Z &quot;“()])([A-Z]+)&#39;</span>, <span class="kw">lambda</span> x: <span class="ss">f&quot;</span><span class="ch">\\</span><span class="ss">n</span><span class="sc">{</span>x<span class="sc">.</span>group(<span class="dv">1</span>)<span class="sc">}</span><span class="ss">&quot;</span> <span class="cf">if</span> x.start() <span class="op">!=</span> <span class="dv">0</span> <span class="cf">else</span> x.group(<span class="dv">1</span>), regex<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>dfT[<span class="st">&#39;Importe&#39;</span>] <span class="op">=</span> dfT[<span class="st">&#39;Importe&#39;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="bu">float</span>(x.replace(<span class="st">&#39;.&#39;</span>, <span class="st">&#39;&#39;</span>).replace(<span class="st">&#39;,&#39;</span>, <span class="st">&#39;.&#39;</span>)))</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Le decimos que rellene los valores con 0 en este caso los floats y
+para el resto que sean nulos</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>dfT[<span class="st">&#39;Importe&#39;</span>]<span class="op">=</span>dfT[<span class="st">&#39;Importe&#39;</span>].fillna(<span class="fl">0.0</span>)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>dfT <span class="op">=</span> dfT.replace({np.nan: <span class="va">None</span>})</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Instalamos SQL Server en un docker</p>
+<p><strong>SQL Server</strong></p>
+<ul>
+<li>docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Abcd1234." -e
+"MSSQL_PID=Evaluation" -p 41433:1433 --name sqlpreview --hostname
+sqlpreview -d
+mcr.microsoft.com/mssql/server:2022-preview-ubuntu-22.04</li>
+</ul>
+<p>Teniendo en cuenta que la contraseña tiene que tener 8 caracteres y
+mayúscula</p>
+</div>
+<div class="cell markdown">
+<p>Instalamos pyodbc para manejar el SQL Server</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!conda install -c conda-forge -y pyodbc</span></span></code></pre></div>
+</div>
+<section id="instalación-driver" class="cell markdown">
+<h1>Instalación Driver</h1>
+<h2 id="windows"><strong>WINDOWS</strong></h2>
+<p>Instalar el Driver desde la página del enlace con la versión 18</p>
+<p><a href="https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16#download-for-windows">ODBC
+Driver .msi para Windows</a></p>
+<h2 id="debian"><strong>DEBIAN</strong></h2>
+<p>curl <a href="https://packages.microsoft.com/keys/microsoft.asc"
+class="uri">https://packages.microsoft.com/keys/microsoft.asc</a> | sudo
+tee /etc/apt/trusted.gpg.d/microsoft.asc</p>
+<p>Escoja la versión necesaria para la instalación</p>
+<h3 id="debian-9">Debian 9</h3>
+<p>curl <a
+href="https://packages.microsoft.com/config/debian/9/prod.list"
+class="uri">https://packages.microsoft.com/config/debian/9/prod.list</a>
+| sudo tee /etc/apt/sources.list.d/mssql-release.list</p>
+<h3 id="debian-10">Debian 10</h3>
+<p>curl <a
+href="https://packages.microsoft.com/config/debian/10/prod.list"
+class="uri">https://packages.microsoft.com/config/debian/10/prod.list</a>
+| sudo tee /etc/apt/sources.list.d/mssql-release.list</p>
+<h3 id="debian-11">Debian 11</h3>
+<p>curl <a
+href="https://packages.microsoft.com/config/debian/11/prod.list"
+class="uri">https://packages.microsoft.com/config/debian/11/prod.list</a>
+| sudo tee /etc/apt/sources.list.d/mssql-release.list</p>
+<h3 id="debian-12">Debian 12</h3>
+<p>curl <a
+href="https://packages.microsoft.com/config/debian/12/prod.list"
+class="uri">https://packages.microsoft.com/config/debian/12/prod.list</a>
+| sudo tee /etc/apt/sources.list.d/mssql-release.list</p>
+<p>sudo apt-get update sudo ACCEPT_EULA=Y apt-get install -y
+msodbcsql18</p>
+<p><strong>optional: for bcp and sqlcmd</strong></p>
+<p>sudo ACCEPT_EULA=Y apt-get install -y mssql-tools18 echo 'export
+PATH="$PATH:/opt/mssql-tools18/bin"' &gt;&gt; ~/.bashrc source
+~/.bashrc</p>
+<p><strong>optional: for unixODBC development headers</strong></p>
+<p>sudo apt-get install -y unixodbc-dev</p>
+<p><strong>optional: kerberos library for debian-slim
+distributions</strong></p>
+<p>sudo apt-get install -y libgssapi-krb5-2</p>
+<p>© MicrosoftDocs</p>
+</section>
+<section id="manejo-sql-server" class="cell markdown">
+<h1>Manejo SQL Server</h1>
+</section>
+<div class="cell markdown">
+<p>Inicializamos la conexión con el ODBC 18 descrgado anteriormente</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pyodbc</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>connectionString <span class="op">=</span> <span class="ss">f&#39;DRIVER=</span><span class="ch">{{</span><span class="ss">ODBC Driver 18 for SQL Server</span><span class="ch">}}</span><span class="ss">;SERVER=10.133.29.100,41433;DATABASE=Concellos;UID=sa;PWD=Abcd1234.;Encrypt=no&#39;</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>conexion <span class="op">=</span> pyodbc.<span class="ex">connect</span>(connectionString)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Eliminamos en este caso la tabla si existe para no repetir datos</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>cursor <span class="op">=</span> conexion.cursor()</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>cursor.execute(<span class="st">&quot;&quot;&quot;Drop TABLE if exists ConcelloDatos&quot;&quot;&quot;</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>cursor.commit()</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Creamos la tabla con los valores, siendo las tablas con [] nombres
+con espacios</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>cursor <span class="op">=</span> conexion.cursor()</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>cursor.execute(<span class="st">&quot;&quot;&quot;CREATE TABLE Concellos.dbo.ConcelloDatos (</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="st">	              Expediente varchar(800) NULL,</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="st">	              [Tipo de Contrato] varchar(400) NULL,</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="st">	              Estado varchar(50) NULL,</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="st">	              Importe decimal(38,0) NULL,</span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="st">	              Fechas varchar(200) NULL,</span></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="st">	              [Órgano de Contratación] varchar(100) NULL</span></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a><span class="st">)</span></span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span>)</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>cursor.commit()</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Ejecutamos un executemany para jugar un PreparedStatment es decir una
+consulta con parámetros y le pasamos los valores del DataFrame</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>cursor.executemany(<span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="st">                   INSERT INTO ConcelloDatos(Expediente,[Tipo de Contrato],Estado,Importe,Fechas,[Órgano de Contratación])</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="st">                   Values (?,?,?,?,?,?)</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span>,dfT.values.tolist())</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>cursor.commit()</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="co">#SQL ALCHEMY</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a><span class="co">#dfT.to_sql(&quot;ConcelloDatos&quot;,connectionString)</span></span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Hacemos un Select * de prueba y vemos por ejemplo la columna
+"Expediente"</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>cursor.execute(<span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="st">                Select * </span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="st">                From ConcelloDatos</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span>)</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>tuplas <span class="op">=</span> cursor.fetchall()</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> tupla <span class="kw">in</span> tuplas:</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(tupla.Expediente)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Cerramos la conexión a SQL Server y su Cursor</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>cursor.close()</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>conexion.close()</span></code></pre></div>
+</div>
+</body>
+</html>

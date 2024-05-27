@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Página web de Diego Guizán López con toda su información referente" />
+    <meta name="keywords" content="Diego,Guizán,López,Diego IA, Diego BigData, Diego Android" />
+    <meta name="author" content="Diego Guizán López" />
+    <link rel="icon" href="/assets/icons/WebPageIconEmpty.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <title>Diego GL | Página Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <style>
+        @import '/css/csMat.css';
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm  navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Diego Guizán López</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/estudios.html">Mis estudios</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/pages/proyectos.html">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="/assets/cv.pdf">CV</a></li>
+                </ul>
+            </div>
+            <ul class="navbar-nav d-flex flex-row ms-auto me-3">
+                <a class="deactive" target="_blank" href="https://www.linkedin.com/in/diego-guizán-lópez-a84bb727a/"
+                    style="color: white;" title="Linkedin Diego Guizán López"><i class="bi bi-linkedin"></i></a>
+                <a class="deactive" target="_blank" href="https://github.com/diegoguizanlopez" style="color: white;"
+                    title="GitHub Diego Guizán López"><i class="bi bi-github"></i></a>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="site-section d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 my-4 align-items-stretch">
+                    <div class="container custom-container h-100">
+                        <div class="section-heading text-center col-md-12 mb-5">
+                            <h3>
+                                <img src="/assets/icons/ia.png" alt="IA Icon" class="me-2" style="height: 30px;">
+                                <img src="/assets/icons/python.png" alt="Python Icon" class="me-2" style="height: 30px;">
+                                <strong class="text-decoration-underline">Inteligencia Artificial - Python</strong>
+                            </h3>
+                        </div>
+                        <div class="row mb-4">
+                            <h5 class="text-dark">Trabajo de detección de caras reales vs IA:</h5>
+                            <a class="btn btn-dark text-light" id="expandButton"
+                                onclick="toggleText('expandedText','expandButton','Es una IA o una persona')">Es una IA
+                                o una
+                                persona</a>
+                            <div id="expandedText" style="display: none;" class="m-3 rounded">
+                                <!-- Aquí se mostrará el contenido del IPython Notebook -->
+                                <iframe src="/assets/ipynb/real_vs_fake/9ef930d5b1d34cd19e66e1c200a1fa5e.html"
+                                    style="width: 100%; height: 400px;"></iframe>
+                            </div>
+                        </div>
+                        <hr class="bg-dark border-2 border-top border-dark mb-4" />
+                        <div class="row">
+                            <h5 class="text-dark">Repositorio de Github con IAs y códigos ya hechos</h5>
+                            <a class="btn btn-dark text-light" target="_blank"
+                                href="https://github.com/diegoguizanlopez/BigDataEIa/tree/main/IA" style="color: white;"
+                                title="GitHub Diego Guizán López"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-4 align-items-stretch">
+                    <div class="container custom-container h-100">
+                        <div class="section-heading text-center col-md-12 mb-5">
+                            <h3>
+                                <img src="/assets/icons/bigdata.png" alt="Big Data Icon" class="me-2" style="height: 30px;">
+                                <img src="/assets/icons/python.png" alt="Python Icon" class="me-2" style="height: 30px;">
+                                <strong class="text-decoration-underline">Sistemas de Big Data - Python</strong>
+                            </h3>
+                        </div>
+                        <div class="row mb-4">
+                            <h5 class="text-dark">Ejemplo de scrapping de datos con Selenium en Python</h5>
+                            <a class="btn btn-dark text-light" id="expandButtonConc"
+                                onclick="toggleText('expandedTextConc','expandButtonConc','Scrapping concello')">Scrapping
+                                concello</a>
+                            <div id="expandedTextConc" style="display: none;" class="m-3 rounded">
+                                <!-- Aquí se mostrará el contenido del IPython Notebook -->
+                                <iframe src="/assets/ipynb/scrapping_concello/vertopal.com_scraping-concello.html"
+                                    style="width: 100%; height: 400px;"></iframe>
+                            </div>
+                        </div>
+                        <hr class="bg-dark border-2 border-top border-dark mb-4" />
+                        <div class="row mb-4">
+                            <h5 class="text-dark">Ejemplo de conexión Python-MongoDB</h5>
+                            <a class="btn btn-dark text-light" id="expandButtonMongo"
+                                onclick="toggleText('expandedTextMongo','expandButtonMongo','Conexión a MongoDB')">Conexión
+                                con MongoDB</a>
+                            <div id="expandedTextMongo" style="display: none;" class="m-3 rounded">
+                                <!-- Aquí se mostrará el contenido del IPython Notebook -->
+                                <iframe src="/assets/ipynb/mongodb/vertopal.com_T3_2.html"
+                                    style="width: 100%; height: 400px;"></iframe>
+                            </div>
+                        </div>
+                        <hr class="bg-dark border-2 border-top border-dark mb-4" />
+                        <div class="row">
+                            <h5 class="text-dark">Repositorio de Github con docs de Sistemas de Big Data</h5>
+                            <a class="btn btn-dark text-light" target="_blank"
+                                href="https://github.com/diegoguizanlopez/BigDataEIa/tree/main/Big_Data/Sitemas_De_Big_Data"
+                                style="color: white;" title="GitHub Diego Guizán López"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 my-4 align-items-stretch">
+                    <div class="container custom-container h-100">
+                        <div class="section-heading text-center col-md-12 mb-5">
+                            <h3>
+                                <img src="/assets/icons/java.png" alt="Java Icon" class="me-2" style="height: 30px;">
+                                <strong class="text-decoration-underline">Java</strong>
+                            </h3>
+                        </div>
+                        <div class="row mb-4">
+                            <h5 class="text-dark">TFG Segundo de DAM: Aplicación de gestión de BBDD de videojuegos con
+                                servidor de imágenes</h5>
+                            <a class="btn btn-dark text-light" target="_blank"
+                                href="https://github.com/diegoguizanlopez/AppEscritorio-JAVA-TFG">TFG DAM Java</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-4 align-items-stretch">
+                    <div class="container custom-container h-100">
+                        <div class="section-heading text-center col-md-12 mb-5">
+                            <h3>
+                                <img src="/assets/icons/flutter.png" alt="Flutter Icon" class="me-2" style="height: 30px;">
+                                <strong class="text-decoration-underline">Flutter</strong>
+                            </h3>
+                        </div>
+                        <div class="row mb-4">
+                            <h5 class="text-dark"><strong>TalkBack.</strong> Red social creada con Firebase y Flutter
+                            </h5>
+                            <a class="btn btn-dark text-light" target="_blank"
+                                href="https://github.com/diegoguizanlopez/TalkBackSocialMediaFlutter">TalkBack</a>
+                        </div>
+                        <hr class="bg-dark border-2 border-top border-dark mb-4" />
+                        <div class="row">
+                            <h5 class="text-dark">TFG Segundo de DAM Aplicación de gestión de BBDD de videojuegos con
+                                servidor de imágenes versión teléfono</h5>
+                            <a class="btn btn-dark text-light" target="_blank"
+                                href="https://github.com/diegoguizanlopez/AppMovil-FLUTTER-TFG">TFG DAM Flutter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="bg-dark text-white pt-4 ">
+        <div class="container">
+            <div class="row">
+                <!-- About section -->
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="mailto: diegoguizanlopez@gmail.com" class="text-white">Correo</a></li>
+                        <li><a href="tel:+34 698 12 92 59" class="text-white">Teléfono</a></li>
+                    </ul>
+                </div>
+                <!-- Quick Links section -->
+                <div class="col-md-4">
+                    <h5>Páginas de la Web</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/pages/estudios.html" class="text-white">Mis estudios</a></li>
+                        <li><a href="/pages/proyectos.html" class="text-white">Proyectos</a></li>
+                        <li><a href="/assets/cv.pdf" target="_blank" class="text-white">CV</a></li>
+                    </ul>
+                </div>
+                <!-- Social Media Links section -->
+                <div class="col-md-4">
+                    <h5>Sigueme en redes</h5>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a class="text-white" target="_blank"
+                                href="https://www.linkedin.com/in/diego-guizán-lópez-a84bb727a/"
+                                title="Linkedin Diego Guizán López"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="text-white" target="_blank" href="https://github.com/diegoguizanlopez"
+                                title="GitHub Diego Guizán López"><i class="bi bi-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <p class="mb-0 text-white">&copy; 2024 Diego Guizán López. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        function toggleText(idText, idButton, text) {
+            var expandedText = document.getElementById(idText);
+            var expandButton = document.getElementById(idButton);
+
+            if (expandedText.style.display === "none") {
+                expandedText.style.display = "block";
+                expandButton.textContent = "Contraer";
+            } else {
+                expandedText.style.display = "none";
+                expandButton.textContent = text;
+            }
+        }
+    </script>
+
+</html>
