@@ -49,6 +49,11 @@ p {
   background-color: #f8f9fa;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-container:hover{
+  background-color: #efeff0;
 }
 
 .custom-container-gray {
