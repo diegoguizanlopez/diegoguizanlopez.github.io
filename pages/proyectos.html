@@ -48,7 +48,7 @@
         </div>
     </nav>
 
-    <section class="site-section d-flex justify-content-center align-items-center">
+    <section id="proyectos" class="site-section d-flex justify-content-center align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 my-4 align-items-stretch animate__animated animate__slideInLeft" id="row1">
@@ -62,7 +62,7 @@
                             </h3>
                         </div>
                         <div class="row mb-4">
-                            <h5 class="text-dark">Trabajo de detección de caras reales vs IA:</h5>
+                            <h5 class="text-dark">Trabajo de detección de caras reales vs IA</h5>
                             <a class="btn btn-dark text-light" id="expandButton"
                                 onclick="toggleText('expandedText','expandButton','Es una IA o una persona','row1','row2')">Es
                                 una IA
@@ -70,7 +70,29 @@
                                 persona</a>
                             <div id="expandedText" style="display: none;" class="m-3 rounded">
                                 <!-- Aquí se mostrará el contenido del IPython Notebook -->
-                                <iframe src="/assets/ipynb/real_vs_fake/it-s-an-ai-or-a-person.html"
+                                <iframe src="/assets/ipynb/ia/real_vs_fake/it-s-an-ai-or-a-person.html"
+                                    style="width: 100%; height: 400px;"></iframe>
+                            </div>
+                        </div>
+                        <hr class="bg-dark border-2 border-top border-dark mb-4" />
+                        <div class="row mb-4">
+                            <h5 class="text-dark">Análisis de mercado de Intel con redes recurrentes</h5>
+                            <a class="btn btn-dark text-light" id="expandButtonMerc"
+                                onclick="toggleText('expandedTextMerc','expandButtonMerc','Análisis mercado','row1','row2')">Análisis mercado</a>
+                            <div id="expandedTextMerc" style="display: none;" class="m-3 rounded">
+                                <!-- Aquí se mostrará el contenido del IPython Notebook -->
+                                <iframe src="/assets/ipynb/ia/mercado/mercado.html"
+                                    style="width: 100%; height: 400px;"></iframe>
+                            </div>
+                        </div>
+                        <hr class="bg-dark border-2 border-top border-dark mb-4" />
+                        <div class="row mb-4">
+                            <h5 class="text-dark">Clasificación de audio con redes y openCV</h5>
+                            <a class="btn btn-dark text-light" id="expandButtonAud"
+                                onclick="toggleText('expandedTextAud','expandButtonAud','Audio de números','row1','row2')">Audio de números</a>
+                            <div id="expandedTextAud" style="display: none;" class="m-3 rounded">
+                                <!-- Aquí se mostrará el contenido del IPython Notebook -->
+                                <iframe src="/assets/ipynb/ia/audio/audio.html"
                                     style="width: 100%; height: 400px;"></iframe>
                             </div>
                         </div>
@@ -101,7 +123,7 @@
                                 concello</a>
                             <div id="expandedTextConc" style="display: none;" class="m-3 rounded">
                                 <!-- Aquí se mostrará el contenido del IPython Notebook -->
-                                <iframe src="/assets/ipynb/scrapping_concello/scraping-concello.html"
+                                <iframe src="/assets/ipynb/sbd/scrapping_concello/scraping-concello.html"
                                     style="width: 100%; height: 400px;"></iframe>
                             </div>
                         </div>
@@ -113,7 +135,7 @@
                                 con MongoDB</a>
                             <div id="expandedTextMongo" style="display: none;" class="m-3 rounded">
                                 <!-- Aquí se mostrará el contenido del IPython Notebook -->
-                                <iframe src="/assets/ipynb/mongodb/T3_2.html"
+                                <iframe src="/assets/ipynb/sbd/mongodb/T3_2.html"
                                     style="width: 100%; height: 400px;"></iframe>
                             </div>
                         </div>
@@ -172,10 +194,6 @@
         </div>
     </section>
 
-
-
-
-
     <section class="bg-dark text-white pt-4 ">
         <div class="container">
             <div class="row">
@@ -219,34 +237,38 @@
             </div>
         </div>
     </section>
+</body>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
-    <script>
+<script>
 
-        expandedNR1 = 0
+    expandedNR1 = 0
 
-        function toggleText(idText, idButton, text, row, rowFriend) {
-            var expandedText = document.getElementById(idText);
-            var expandButton = document.getElementById(idButton);
-            var row = document.getElementById(row);
-            var rowFriend = document.getElementById(rowFriend);
+    function toggleText(idText, idButton, text, row, rowFriend) {
+        var expandedText = document.getElementById(idText);
+        var expandButton = document.getElementById(idButton);
+        var row = document.getElementById(row);
+        var rowFriend = document.getElementById(rowFriend);
 
-            if (expandedText.style.display === "none") {
-                expandedText.style.display = "block";
-                expandButton.textContent = "Contraer";
-                row.classList.add('col-lg-12'); // Cambia la clase a col-lg-12 y agrega sombreado
-                rowFriend.classList.add('col-lg-12'); // Cambia la clase a col-lg-12 y agrega sombreado
-                expandedNR1 += 1
-            } else {
-                expandedText.style.display = "none";
-                expandButton.textContent = text;
-                expandedNR1 -= 1
-                if (expandedNR1 == 0) {
-                    row.classList.remove('col-lg-12'); // Cambia la clase a col-lg-12 y agrega sombreado
-                    rowFriend.classList.remove('col-lg-12'); // Cambia la clase a col-lg-12 y agrega sombreado
-                }
+        if (expandedText.style.display === "none") {
+            expandedText.style.display = "block";
+            expandButton.textContent = "Contraer";
+            row.classList.add('col-lg-12'); // Cambia la clase a col-lg-12 y agrega sombreado
+            rowFriend.classList.add('col-lg-12'); // Cambia la clase a col-lg-12 y agrega sombreado
+            expandedNR1 += 1
+        } else {
+            expandedText.style.display = "none";
+            expandButton.textContent = text;
+            expandedNR1 -= 1
+            if (expandedNR1 == 0) {
+                row.classList.remove('col-lg-12'); // Cambia la clase a col-lg-12 y agrega sombreado
+                rowFriend.classList.remove('col-lg-12'); // Cambia la clase a col-lg-12 y agrega sombreado
             }
         }
-    </script>
+    }
+</script>
 
 </html>
