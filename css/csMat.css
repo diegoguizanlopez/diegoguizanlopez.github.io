@@ -35,23 +35,27 @@ body {
   margin-left: auto;
 }
 
-h1, h2, h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
   color: black;
 }
 
 .custom-container {
-  border-radius: 10px; 
-  padding: 20px; 
-  background-color: #f8f9fa; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 5px;
 }
 
 .custom-container-gray {
-  border-radius: 10px; 
-  padding: 20px; 
-  background-color: #f0f2f4; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f0f2f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 5px;
 }
 
@@ -62,23 +66,31 @@ footer {
 }
 
 .idioma-img {
-  width: 50px; /* Tamaño de la imagen */
-  height: 50px; /* Tamaño de la imagen */
-  object-fit: cover; /* Ajusta el tamaño manteniendo la proporción */
-  margin-top: 10px; /* Ajusta el espacio entre la imagen y el texto */
-  margin-right: 10px; /* Ajusta el espacio entre la imagen y el borde derecho de la tarjeta */
+  width: 50px;
+  /* Tamaño de la imagen */
+  height: 50px;
+  /* Tamaño de la imagen */
+  object-fit: cover;
+  /* Ajusta el tamaño manteniendo la proporción */
+  margin-top: 10px;
+  /* Ajusta el espacio entre la imagen y el texto */
+  margin-right: 10px;
+  /* Ajusta el espacio entre la imagen y el borde derecho de la tarjeta */
 }
 
 .card-body {
-  flex: 1; /* Hace que el cuerpo de la tarjeta ocupe el espacio disponible */
+  flex: 1;
+  /* Hace que el cuerpo de la tarjeta ocupe el espacio disponible */
 }
 
 .card {
-  position: relative; /* Para posicionar el texto y la imagen relativamente */
+  position: relative;
+  /* Para posicionar el texto y la imagen relativamente */
 }
 
 .card-title {
-  margin-bottom: 0; /* Elimina el espacio inferior del título */
+  margin-bottom: 0;
+  /* Elimina el espacio inferior del título */
 }
 
 /* Agregamos un suave sombreado y redondeo a las columnas */
@@ -90,4 +102,8 @@ footer {
 /* Definimos el sombreado */
 .col-lg-6.shadow {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-container {
+  overflow-x: auto;
 }
