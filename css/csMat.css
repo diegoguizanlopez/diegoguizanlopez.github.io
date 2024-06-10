@@ -112,3 +112,11 @@ footer {
 .scroll-container {
   overflow-x: auto;
 }
+
+#expandableSection.collapsing {
+  transition: height 0.35s ease;
+}
+
+#expandableSection.expanding {
+  transition: height 0.35s ease;
+}
